@@ -19,4 +19,5 @@ from reportesdocs import views
 urlpatterns = [
     # path('hello/', views.hello_world),
     path('hi/', views.hi),
+    path('api/reporte/', views.reporte)
 ]

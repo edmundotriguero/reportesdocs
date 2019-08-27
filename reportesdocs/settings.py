@@ -61,8 +61,8 @@ MIDDLEWARE = [
 
 #  inicio configuracion cors
 CORS_ORIGIN_ALLOW_ALL = True
-
-
+CORS_ALLOW_CREDENTIALS = True
+CSRF_COOKIE_SECURE = False
 #  fin configuracion cors
 
 ROOT_URLCONF = 'reportesdocs.urls'
